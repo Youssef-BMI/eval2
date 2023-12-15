@@ -21,7 +21,6 @@ int main() {
       nbrePlaces--;
       std::cout << " - Entrée dans le parking \n";
       std::cout << " BIENVENUE\n";
-      std::cout << "Nombre de place restante:\n" << nbrePlaces;
       std::cout << " \n";
       break;
 
@@ -35,7 +34,6 @@ int main() {
       nbrePlaces++;
       std::cout << " - Sortie du parking\n";
       std::cout << "à bientot !";
-      std::cout << " Nombre de place disponibles:\n" << nbrePlaces;
       std::cout << " \n";
       break;
 
